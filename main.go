@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"time"
-	"work_ss/Processos/include_foreign_keys_into_passenger/dao"
+	"auto_sql/dao"
 )
 
 func main(){
