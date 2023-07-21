@@ -35,7 +35,7 @@ func selectData() []*SpecificTable {
 									SELECT d.id, d.prfid, d.local_time, d.unit, d.position_id
 										FROM specificTable d
 									JOIN another_table pb ON
-									d.tracker_event_id = pb.tracker_event_id
+									d.td = pb.td
 									AND d.local_time = pb.local_time
 									AND d.unit = pb.unit
 									AND pb.rfid = d.prfid 
